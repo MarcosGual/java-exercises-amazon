@@ -1,0 +1,1 @@
+SELECT name AS Name, address AS Address, accounts.id as Account_Id, balance as Balance FROM customers JOIN accounts ON customers.id = accounts.customer_id;
